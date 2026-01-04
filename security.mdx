@@ -1,1 +1,51 @@
+---
+title: "Security"
+description: "Understanding ZeroSwaps security architecture and best practices"
+---
+
+# Zero-knowledge proofs
+
+ZeroSwaps uses zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) to prove transaction validity without revealing any details. This cryptographic primitive is the foundation of the entire privacy architecture.
+
+The zero-knowledge proof system provides the following guarantees:
+
+**Complete Transaction Privacy**: All transaction details including amounts, tokens, and participants remain hidden while still being verifiable by the network.
+
+**Verifiable Correctness**: The network can verify that transactions are valid (sufficient balances, correct math, no double-spending) without seeing the actual values.
+
+**No Trusted Setup Required**: ZeroSwaps uses modern zk-SNARK constructions that eliminate the need for trusted setup ceremonies, removing a potential security vulnerability.
+
+**Efficient Proof Generation**: Proofs are generated quickly on the client side, ensuring fast transaction times without compromising privacy.
+
+The cryptographic security of zk-SNARKs is based on well-established mathematical assumptions and has been extensively studied by the academic cryptography community.
+
+## Smart contract security
+
+All ZeroSwaps smart contracts have been designed with security as the primary consideration. The contracts undergo rigorous testing and auditing before deployment.
+
+**Audited by Leading Security Firms**: Independent security audits by top blockchain security firms ensure that contracts are free from vulnerabilities.
+
+**Tested Extensively on Testnets**: All contracts are deployed and tested on testnets for extended periods before mainnet deployment.
+
+**Open Source and Verifiable**: All contract code is open source and verifiable on-chain, allowing anyone to audit the implementation.
+
+**Regularly Updated with Security Patches**: The team monitors for new vulnerabilities and deploys security patches promptly when needed.
+
+The non-custodial architecture means that even in the unlikely event of a contract vulnerability, user funds remain in their own wallets until the moment of swap execution.
+
+## Best practices
+
+To ensure maximum security when using ZeroSwaps, follow these recommended practices:
+
+**Always Verify the Contract Address**: Before interacting with ZeroSwaps, verify that you are connecting to the official contract address published on the website.
+
+**Use Hardware Wallets for Large Transactions**: For significant amounts, use a hardware wallet like Ledger or Trezor to add an additional layer of security.
+
+**Keep Your Private Keys Secure**: Never share your private keys or seed phrases with anyone. ZeroSwaps will never ask for this information.
+
+**Check Transaction Details Carefully**: Before confirming any transaction, carefully review all details including amounts, tokens, and gas fees.
+
+**Stay Updated with Security Announcements**: Follow official ZeroSwaps channels for security announcements and updates.
+
+By following these practices and leveraging the built-in security features, you can trade with confidence knowing your assets and privacy are protected.
 
