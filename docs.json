@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/schema.json",
   "name": "ZeroSwaps",
   "logo": {
     "dark": "/logo/dark.svg",
@@ -6,15 +7,10 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#FFEA00",
+    "light": "#FFD700",
+    "dark": "#E6D300"
   },
-  "theme": "mint",
   "topbarLinks": [
     {
       "name": "Support",
@@ -23,23 +19,27 @@
   ],
   "topbarCtaButton": {
     "name": "Launch App",
-    "url": "https://app.zeroswaps.com"
+    "url": "https://app.zeroswaps.xyz"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Getting started",
-        "pages": [
-          "getting-started",
-          "features",
-          "security"
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "getting-started",
+              "features",
+              "security"
+            ]
+          }
         ]
       }
     ]
   },
   "footerSocials": {
-    "twitter": "https://twitter.com/zeroswaps",
-    "github": "https://github.com/zeroswaps",
-    "discord": "https://discord.gg/zeroswaps"
+    "twitter": "https://twitter.com/zeroswaps"
+    "telegram": "https://t.me/zeroswaps_tg"
   }
 }
