@@ -12,6 +12,9 @@
     "light": "#FFD700",
     "dark": "#E6D300"
   },
+  "meta": {
+    "image": "/img_9911882.png"
+  },
   "topbarLinks": [
     {
       "name": "Support",
