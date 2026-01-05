@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "ZeroSwaps",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/img_101201.svg",
+    "light": "/img_101201.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/img_101201.svg",
   "theme": "willow",
   "colors": {
     "primary": "#FFEA00",
@@ -15,7 +15,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@zeroswaps.com"
+      "url": "mailto:olivergrant11@proton.me"
     }
   ],
   "topbarCtaButton": {
