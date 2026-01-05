@@ -1,0 +1,30 @@
+{
+  "name": "ZeroSwaps",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "getting-started",
+              "features",
+              "security"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
