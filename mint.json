@@ -7,23 +7,19 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#FFEA00",
+    "light": "#FFD700",
+    "dark": "#E6D300"
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@zeroswaps.com"
+      "url": "mailto:olivergrant11@proton.me"
     }
   ],
   "topbarCtaButton": {
     "name": "Launch App",
-    "url": "https://app.zeroswaps.com"
+    "url": "https://app.zeroswaps.xyz"
   },
   "navigation": {
     "tabs": [
@@ -43,8 +39,7 @@
     ]
   },
   "footerSocials": {
-    "twitter": "https://twitter.com/zeroswaps",
-    "github": "https://github.com/zeroswaps",
-    "discord": "https://discord.gg/zeroswaps"
+    "twitter": "https://twitter.com/zeroswaps"
+    "telegram": "https://t.me/zeroswaps_tg"
   }
 }
