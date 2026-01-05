@@ -6,14 +6,15 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#FFEA00",
-    "light": "#FFEA00",
-    "dark": "#FFEA00",
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
     "anchors": {
-      "from": "#FFEA00",
-      "to": "#FFD700"
+      "from": "#0D9373",
+      "to": "#07C983"
     }
   },
+  "theme": "mint",
   "topbarLinks": [
     {
       "name": "Support",
@@ -22,21 +23,16 @@
   ],
   "topbarCtaButton": {
     "name": "Launch App",
-    "url": "https://zeroswaps.com"
+    "url": "https://app.zeroswaps.com"
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Documentation",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "getting-started",
-              "features",
-              "security"
-            ]
-          }
+        "group": "Getting started",
+        "pages": [
+          "getting-started",
+          "features",
+          "security"
         ]
       }
     ]
